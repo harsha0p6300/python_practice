@@ -10,6 +10,7 @@ print(unique_num)
 
 #or
 
+#Write a program to remove duplicate elements from a list while maintaining the original order
 numbers=[10,20,10,30,70,30,40]
 unique=[]
 for num in numbers:
