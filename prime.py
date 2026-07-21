@@ -1,0 +1,1 @@
+#3) Write a Python program to print all prime numbers between 1 and 100.
