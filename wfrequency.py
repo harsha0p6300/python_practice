@@ -1,6 +1,6 @@
 #count the word frequency 
 
-def wfreq(text):
+def  wfreq(text):
     words=text.split()
     frequency={}
 
