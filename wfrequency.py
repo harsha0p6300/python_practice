@@ -13,3 +13,8 @@ def  wfreq(text):
 
 text="data science data analytics"
 print(wfreq(text))
+
+#or
+
+
+#2. Count the frequency of each word in a sentence.
