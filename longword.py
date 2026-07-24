@@ -1,4 +1,4 @@
-#7. Find the longest word in a sentence.
+# #7. Find the longest word in a sentence.
 def long_word(sentence):
     words=sentence.split()
     return max(words, key=len)
