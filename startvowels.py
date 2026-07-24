@@ -1,4 +1,4 @@
-# #Count how many words start with a vowel.
+# Count how many words start with a vowel.
 def start_vowel(sentence):
     spl=sentence.split()
     vowels='AEIOUaeiou'
