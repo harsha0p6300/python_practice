@@ -12,6 +12,7 @@ class student:
         else:
             print("Result:Fail..!")
 student1=student("Harsha",85)
+
 student2=student("Rakesh",33)
 student1.display()
 student1.is_pass()
