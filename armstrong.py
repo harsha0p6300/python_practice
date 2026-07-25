@@ -1,5 +1,4 @@
 4. #Write a Python program to *check whether a number is an Armstrong number*.
-
 def armstrong(num):
     digit=str(num)
     n=len(digit)
@@ -27,3 +26,6 @@ def is_armstrong(num):
         temp //= 10
     return total == num
 print(is_armstrong(153))
+
+
+
