@@ -24,13 +24,13 @@ account.deposit(10000)
 account.withdraw(3000)
 account.display_balance()
 
-#If you consider the user input
+#If you consider the user input #or
 
-class BankAccount:
-    def __init__(self,balance=0):
+class BankAccount:#A class is a blueprint or template used to create objects.
+    def __init__(self,balance=0):#constructor It automatically runs whenever an object is created.
         self.balance=balance
 
-    def deposit(self,amount):
+    def deposit(self,amount):#A function inside a class is called a method.which is the money to deposit.
         self.balance+=amount
         print(f"Deposited:{amount}")
 
@@ -52,4 +52,4 @@ account.deposit(deposit_amount)
 withdraw_amount=int(input("Enter the withdrawal amount: "))
 account.withdraw(withdraw_amount)
 
-account.display_balance()
+account.display_balance()#Display the final values
