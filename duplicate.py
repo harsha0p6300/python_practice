@@ -9,9 +9,7 @@ def duplicates(lst):
 
 user = list(map(int, input("Enter the numbers: ").split()))
 print(duplicates(user))
-
 #or
-
 #Given two lists, print the common elements without duplicates.
 list1=[1,2,3,4,5]
 list2=[3,4,5,6,7]
