@@ -8,7 +8,8 @@ def count_eo(list1):
         else:
             odd_count+=1
     return even_count,odd_count
-    
+
+#using the function count_eo     
 list1=[1, 2, 3, 4, 5, 6, 7]
 evens,odd=count_eo(list1)
 print("Even count are",evens)

@@ -9,6 +9,7 @@ dict2={
     "c":40
 }
 
+
 for key in dict2:
     if key in dict1:
         dict1[key]+=dict2[key]

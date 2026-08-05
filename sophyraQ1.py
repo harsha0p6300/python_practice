@@ -8,6 +8,7 @@ employees = [
     {"employee": "D", "department": "HR", "salary": 45000},
     {"employee": "E", "department": "IT", "salary": 60000}
 ]
+#empty list department
 departments={}
 
 for emp in employees:
