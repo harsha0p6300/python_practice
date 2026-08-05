@@ -6,10 +6,11 @@ class student:
         self.mathematics=mathematics
         self.English=English
         self.Grammer=Grammer
-
+#for calculating the average
     def calculate_avg(self):
         avg=(self.science+self.mathematics+self.English+self.Grammer)/3
         return avg
+#For calculating the Grade
     def calculate_grade(self):
         avg=self.calculate_avg()
         if avg>=90:
