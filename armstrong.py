@@ -16,6 +16,7 @@ else:
 
 
 #or
+#Armstrong number* using the function
 def is_armstrong(num):
     temp = num
     n = len(str(num))
