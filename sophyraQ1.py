@@ -25,3 +25,26 @@ for dept,salaries in departments.items():
     result[dept]=average
 
 print(result)
+
+#or another solution using function
+
+def department_salary_summary(dicts):
+    totals = {}
+    counts = {}
+
+    for record in dicts:
+        dept = record["department"]
+        salary = record["salary"]
+
+        if dept in totals:
+            totals[dept] += salary
+            counts[dept] += 1
+        else:
+            totals[dept] = salary
+            counts[dept] = 1
+
+    result = {}
+    for dept in totals:
+        result[dept] = round(totals[dept] / counts[dept], 2)
+
+    return result
